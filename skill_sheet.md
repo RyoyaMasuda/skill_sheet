@@ -40,10 +40,121 @@
 
 ### プロジェクト一覧
 
-| 開発期間 | プロジェクト名・内容 | 担当業務 | 環境・言語 | 役割・規模 |
-|----------|---|----------|------------|------------|
-| 2023年1月～4月<br>（4ヶ月） | **鉄道運行情報組織型システム開発**<br>・鉄道運行情報サイトのスクレイピング・通知システム開発<br>・OpenAIを活用したデータ分類・クレンジング<br>・PoCから本番稼働までの一貫開発 | ・スクレイピング処理の実装<br>・データマネジメント設計<br>・Azure OpenAI/RAGアーキテクチャ構築<br>・通知システム開発<br>・サーバレス基盤構築<br>・運用保守体制の確立 | ・開発環境：MacOS, Linux(Ubuntu)<br>・言語：Python<br>・フレームワーク：Playwright, Pandas<br>・クラウド：Azure (OpenAI, Functions, CosmosDB他)<br>・その他：Docker, Github | ・役割：開発リーダー<br>・チーム規模：3名<br>・担当：設計～運用 |
-| 2024年10月～<br>（進行中） | **スキー場分析ダッシュボード**<br>・施設動向調査システム構築<br>・データ可視化基盤の開発 | ・データ処理実装<br>・システム改善<br>・環境構築<br>・AI機能実装提案 | ・開発環境：Linux(Ubuntu)<br>・言語：Python<br>・フレームワーク：Pandas, numpy<br>・クラウド：AWS (ECR, ECS, RDS)<br>・その他：Docker, Makefile | ・役割：メンバー<br>・チーム規模：3名<br>・担当：開発～保守 |
-| 2024年7月～9月<br>（3ヶ月） | **生成AI文献要約システム**<br>・科学技術文献の自動要約<br>・RAGアーキテクチャ採用 | ・データ前処理<br>・バックエンド開発<br>・プロンプト設計<br>・AWS移行 | ・開発環境：Linux(Ubuntu)<br>・言語：Python<br>・フレームワーク：chainlit, langchain<br>・クラウド：AWS (Bedrock, VPC)<br>・その他：Pinecone | ・役割：メンバー<br>・チーム規模：2名<br>・担当：開発全般 |
-| 2024年4月～6月<br>（3ヶ月） | **交通需要予測システム**<br>・バス会社向け将来需要予測<br>・Tableauによる可視化 | ・データ収集/前処理<br>・予測モデル構築<br>・自動化処理実装<br>・精度検証 | ・言語：Python<br>・フレームワーク：pandas, numpy<br>・可視化：matplotlib, plotly<br>・予測：prophet | ・役割：メンバー<br>・チーム規模：4名<br>・担当：分析～実装 |
-| 2024年2月～4月<br>（3ヶ月） | **公共交通OD推定システム**<br>・移動経路予測アルゴリズム開発<br>・PoCプロジェクト | ・アルゴリズム開発<br>・データ前処理<br>・モデル検証 | ・開発環境：MacOS, Linux<br>・言語：Python<br>・フレームワーク：PyTorch, scikit-learn<br>・クラウド：AWS (ECR, ECS)<br>・DB：MySQL | ・役割：メンバー<br>・チーム規模：1名<br>・担当：開発全般 | 
+<style>
+.project-table {
+    width: 100%;
+    table-layout: fixed;
+}
+.project-table th:nth-child(1) { width: 12%; }
+.project-table th:nth-child(2) { width: 28%; }
+.project-table th:nth-child(3) { width: 25%; }
+.project-table th:nth-child(4) { width: 25%; }
+.project-table th:nth-child(5) { width: 10%; }
+</style>
+
+<div class="table-responsive">
+<table class="project-table">
+<thead>
+<tr>
+<th>開発期間</th>
+<th>プロジェクト名・内容</th>
+<th>担当業務</th>
+<th>環境・言語</th>
+<th>役割・規模</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023年1月<br>～4月<br>（4ヶ月）</td>
+<td><b>鉄道運行情報組織型システム開発</b><br>
+・鉄道運行情報サイトのスクレイピング・通知システム開発<br>
+・OpenAIを活用したデータ分類・クレンジング<br>
+・PoCから本番稼働までの一貫開発</td>
+<td>・スクレイピング処理の実装<br>
+・データマネジメント設計<br>
+・Azure OpenAI/RAGアーキテクチャ構築<br>
+・通知システム開発<br>
+・サーバレス基盤構築<br>
+・運用保守体制の確立</td>
+<td>・開発環境：MacOS, Linux<br>
+・言語：Python<br>
+・FW：Playwright, Pandas<br>
+・クラウド：Azure (OpenAI他)<br>
+・その他：Docker, Github</td>
+<td>・役割：開発リーダー<br>
+・規模：3名<br>
+・担当：設計～運用</td>
+</tr>
+<tr>
+<td>2024年10月<br>～現在<br>（進行中）</td>
+<td><b>スキー場分析ダッシュボード</b><br>
+・施設動向調査システム構築<br>
+・データ可視化基盤の開発</td>
+<td>・データ処理実装<br>
+・システム改善<br>
+・環境構築<br>
+・AI機能実装提案</td>
+<td>・開発環境：Linux<br>
+・言語：Python<br>
+・FW：Pandas, numpy<br>
+・クラウド：AWS (ECR他)<br>
+・その他：Docker</td>
+<td>・役割：メンバー<br>
+・規模：3名<br>
+・担当：開発～保守</td>
+</tr>
+<tr>
+<td>2024年7月<br>～9月<br>（3ヶ月）</td>
+<td><b>生成AI文献要約システム</b><br>
+・科学技術文献の自動要約<br>
+・RAGアーキテクチャ採用</td>
+<td>・データ前処理<br>
+・バックエンド開発<br>
+・プロンプト設計<br>
+・AWS移行</td>
+<td>・開発環境：Linux<br>
+・言語：Python<br>
+・FW：chainlit, langchain<br>
+・クラウド：AWS (Bedrock他)<br>
+・その他：Pinecone</td>
+<td>・役割：メンバー<br>
+・規模：2名<br>
+・担当：開発全般</td>
+</tr>
+<tr>
+<td>2024年4月<br>～6月<br>（3ヶ月）</td>
+<td><b>交通需要予測システム</b><br>
+・バス会社向け将来需要予測<br>
+・Tableauによる可視化</td>
+<td>・データ収集/前処理<br>
+・予測モデル構築<br>
+・自動化処理実装<br>
+・精度検証</td>
+<td>・言語：Python<br>
+・FW：pandas, numpy<br>
+・可視化：matplotlib<br>
+・予測：prophet</td>
+<td>・役割：メンバー<br>
+・規模：4名<br>
+・担当：分析～実装</td>
+</tr>
+<tr>
+<td>2024年2月<br>～4月<br>（3ヶ月）</td>
+<td><b>公共交通OD推定システム</b><br>
+・移動経路予測アルゴリズム開発<br>
+・PoCプロジェクト</td>
+<td>・アルゴリズム開発<br>
+・データ前処理<br>
+・モデル検証</td>
+<td>・開発環境：MacOS, Linux<br>
+・言語：Python<br>
+・FW：PyTorch, scikit-learn<br>
+・クラウド：AWS<br>
+・DB：MySQL</td>
+<td>・役割：メンバー<br>
+・規模：1名<br>
+・担当：開発全般</td>
+</tr>
+</tbody>
+</table>
+</div> 
