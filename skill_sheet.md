@@ -41,29 +41,9 @@
 
 ### プロジェクト一覧
 
-<table>
-<thead>
-<tr>
-<th>開発期間</th>
-<th>プロジェクト名・内容</th>
-<th>担当業務</th>
-<th>環境・言語</th>
-<th>役割・規模</th>
-</tr>
-</thead>
-<tbody style="font-size: 0.85em;">
-<tr>
-<td>2025年1月～4月</td>
-<td><strong>鉄道運行情報通知プロトタイプシステムの開発（生成AI・スクレイピング・変更検知）</strong><br><br>【概要】<br>鉄道運行情報サイトを対象としたスクレイピング・通知システムの開発。Azure OpenAIを活用した生成AIの導入から、データ収集・変更検知・通知までのフローを設計（一部）と実装。PoCからプロトタイプ、ユーザーテストまで担当。<br><br>【担当業務】<br>・鉄道運行情報のスクレイピング<br>・フローチャート、業務フロー作成等の一部基本設計、資料作成<br>・変更検知アルゴリズムの実装<br>・Azure OpenAIを用いた生成AIモデルのプロンプトエンジニアリング<br>・Azure AI Searceを用いたRAGアーキテクチャの構築<br>・通知システムの開発（メール通知、CSV出力など）<br>・サーバレスアーキテクチャにおけるバックエンド開発<br>・テスト項目作成、テスト実施<br>・クライアント報告資料作成<br>・技術ドキュメント整備</td>
-<td>・スクレイピング<br>・基本設計（一部）<br>・業務フロー作成<br>・フローチャート作成<br>・バックエンド開発（サーバレス）<br>・メール通知実装<br>・報告資料作成<br>・社内ドキュメント作成</td>
-<td>MacOS<br><br>Linux(Ubuntu)<br><br>Python<br>-Playwright<br>-Pandas<br>-Pydantic<br><br>Azure<br>-Container Registry<br>-Functions<br>-CosmosDB<br>-Blob Storage<br>-Communication Service<br>-Virtual Machine<br>-OpenAI<br>-AI Search<br><br>Docker<br><br>Github<br><br>Notion</td>
-<td>メンバー<br>3名</td>
-</tr>
-</tbody>
-</table>
-
-| 開発期間 | プロジェクト名・内容 | 担当業務 | 環境・言語 | 役割・規模 |
-|----------|---------------------|----------|------------|------------|
+| 期間 | プロジェクト内容 | 担当業務 | 開発環境 | 規模 |
+|------|-----------------|----------|-----------|------------|
+| 2025年1月～4月 | **鉄道運行情報通知プロトタイプシステムの開発（生成AI・スクレイピング・変更検知）**<br><br>【概要】<br>鉄道運行情報サイトを対象としたスクレイピング・通知システムの開発。Azure OpenAIを活用した生成AIの導入から、データ収集・変更検知・通知までのフローを設計（一部）と実装。PoCからプロトタイプ、ユーザーテストまで担当。<br><br>【担当業務】<br>・鉄道運行情報のスクレイピング<br>・フローチャート、業務フロー作成等の一部基本設計、資料作成<br>・変更検知アルゴリズムの実装<br>・Azure OpenAIを用いた生成AIモデルのプロンプトエンジニアリング<br>・Azure AI Searceを用いたRAGアーキテクチャの構築<br>・通知システムの開発（メール通知、CSV出力など）<br>・サーバレスアーキテクチャにおけるバックエンド開発<br>・テスト項目作成、テスト実施<br>・クライアント報告資料作成<br>・技術ドキュメント整備 | ・スクレイピング<br>・基本設計（一部）<br>・業務フロー作成<br>・フローチャート作成<br>・バックエンド開発（サーバレス）<br>・メール通知実装<br>・報告資料作成<br>・社内ドキュメント作成 | MacOS<br><br>Linux(Ubuntu)<br><br>Python<br>-Playwright<br>-Pandas<br>-Pydantic<br><br>Azure<br>-Container Registry<br>-Functions<br>-CosmosDB<br>-Blob Storage<br>-Communication Service<br>-Virtual Machine<br>-OpenAI<br>-AI Search<br><br>Docker<br><br>Github<br><br>Notion | メンバー<br>3名 |
 | 2024年10月～12月 | **スキー場向けダッシュボードの開発と保守**<br><br>【概要】<br>スキー場オーナー向けの顧客動向調査のダッシュボードの開発と保守<br><br>【担当業務】<br>・データ加工<br>・バグ修正<br>・バージョンアップ等の環境構築<br>・ソースコードの最適化<br>・AI機能追加の提案（顧客混雑度予測の提案） | ・データ加工<br>・バグ修正<br>・環境構築<br>・ソースコードの最適化<br>・顧客分析<br>・顧客提案 | Linux(Ubuntu)<br><br>Python<br>-Pandas<br>-numpy<br><br>AWS<br>-ECR<br>-ECS<br>-Batch<br><br>Docker<br>-compose<br>-dockerfile | メンバー<br>3名 |
 | 2024年7月～9月 | **生成AIを用いた社内文書検索アプリの開発**<br><br>【概要】<br>ITIL プロセス管理のアプリのガイド回答アプリ開発(RAG アーキテクチャ)<br><br>【担当業務】<br>・データ加工、前処理(Web スクレイピング、PDF 作成)<br>・フロントエンド開発<br>・バックエンド開発<br>・AWSへの移植 | ・データ加工<br>・スクレイピング<br>・バックエンド開発<br>・フロントエンド開発 | Linux(Ubuntu)<br><br>Python<br>-selenium<br>-chainlit<br>-streamlit<br>-langchain<br><br>AWS<br>- Bedrock<br>- EC2<br>- VPC<br>- ALB<br>- Pinecone | メンバー<br>2名 |
 | 2024年4月～<br>2024年6月 | **人流データ＋交通データ分析**<br><br>【概要】<br>公共交通機関（バス会社）の将来需要予測とTableauによる利用者ダッシュボード提供<br><br>【担当業務】<br>・データ加工、集計、前処理（モデルへのインプットデータ）<br>・特徴量エンジニアリング<br>・データ可視化<br>・モデル選定<br>・精度検証<br>・報告書作成、顧客報告、提案業務 | ・データ加工<br>・データ前処理<br>・特徴量エンジニアリング<br>・モデル選定<br>・データ可視化<br>・精度検証<br>・報告書作成<br>・顧客折衝<br>・顧客提案 | Linux(Ubuntu)<br><br>Python<br>-pandas<br>-numpy<br>-matplotlib<br>-plotly<br>-folium<br>-prophet | メンバー<br>4名 |
@@ -81,4 +61,32 @@
 |----------|---------------------|----------|------------|------------|
 | 2023年10月～<br>2024年1月<br>(4ヶ月) | **音声認識Webアプリケーションの開発、保守**<br><br>【概要】<br>会議音声の音声認識と自動議事録作成サービスを提供するアプリの開発（追加機能実装）、保守。<br><br>【担当業務】<br>音声認識議事録作成アプリの開発（追加機能実装）、保守、バグ調査（MySQLによるデータ抽出、更新、削除等）。報告資料の作成。Excel自動化。 | ・開発<br>・保守<br>・DB操作<br>・Excel自動化<br>・データ加工 | Linux(Ubuntu)<br><br>AWS<br>-EC2<br>-RDS<br>-S3<br><br>Python<br>-FastAPI<br>-Selenium<br>-pandas<br>-numpy<br>-matplotlib<br>-openpyxl<br><br>DB<br>-MySQL | メンバー<br>4名 |
 | 2022年12月～<br>2023年10月<br>(11ヶ月) | **インフラ業界向けAI異常音検知アプリケーション/PoCのデータ分析**<br><br>【概要】<br>電力会社、建設会社等へ向けた機械故障予兆検知やイベント検出機能実装のPoC、自社プロダクト（異常音検知 Webシステム）へのモデル実装、自社ライブラリ追加機能実装<br><br>【担当業務】<br>顧客折衝（打ち合わせ、報告）、工数見積、バッチ処理、データ分析、モデル構築、精度検証の工程を担当。 | ・顧客折衝<br>・工数見積<br>・バッチ処理<br>・データ前処理<br>・データ可視化<br>・モデル構築<br>・精度検証 | Linux(Ubuntu)<br><br>AWS<br>-Dynamodb<br>-Lambda<br>-S3<br><br>Python<br>-boto3<br>-librosa<br>-pandas<br>-numpy<br>-matplotlib<br>-seaborn<br>-plotly<br>-scikit-learn<br>-UMAP<br>-catboost<br>-Pytorch | メンバー<br>3名 |
-| 2022年10月～<br>2023年1月<br>(4ヶ月) | **教育業界向けwebアプリケーションの追加機能開発（習熟度分析アプリ）**<br><br>【概要】<br>大手教育会社の学習アプリにおいて、AIによる習熟度推定機能追加のプロジェクトにアサインされ、バックエンドのAPI開発から担当。<br><br>【担当業務】<br>データ抽出、データ前処理、ベースラインモデル構築、API開発、テスト（自動化）工程を担当。 | ・データ抽出<br>・データ前処理<br>・モデル構築<br>・開発<br>・テスト | Linux(Centos7)<br><br>AWS<br>-EC2<br>-RDS<br>-S3<br><br>Python<br>-FastAPI<br>-pandas<br>-numpy<br>-matplotlib<br>-seaborn<br>-scikit-learn<br>-lightgbm<br>-xgboost<br>-catboost<br><br>DB<br>-MySQL | メンバー<br>5名 | 
+| 2022年10月～<br>2023年1月<br>(4ヶ月) | **教育業界向けwebアプリケーションの追加機能開発（習熟度分析アプリ）**<br><br>【概要】<br>大手教育会社の学習アプリにおいて、AIによる習熟度推定機能追加のプロジェクトにアサインされ、バックエンドのAPI開発から担当。<br><br>【担当業務】<br>データ抽出、データ前処理、ベースラインモデル構築、API開発、テスト（自動化）工程を担当。 | ・データ抽出<br>・データ前処理<br>・モデル構築<br>・開発<br>・テスト | Linux(Centos7)<br><br>AWS<br>-EC2<br>-RDS<br>-S3<br><br>Python<br>-FastAPI<br>-pandas<br>-numpy<br>-matplotlib<br>-seaborn<br>-scikit-learn<br>-lightgbm<br>-xgboost<br>-catboost<br><br>DB<br>-MySQL | メンバー<br>5名 |
+
+## 保有資格
+
+- 基本情報技術者（2021年12月）
+- 統計検定2級（2021年6月）
+
+## 自己PR
+
+### 業務内容
+
+#### チームメンバーへの情報シェア
+チームの課題として組織内にドキュメントが整っておらず日々の単純業務でも時間がかかる状況が続いていました。その中で私は取り組んだ内容や手法、環境構築等について積極的にGitLabのissueやwiki等にドキュメントとしてまとめる意識をもって業務に取り組んでいました。またGitを使用しない非エンジニアのメンバーでも同じ情報を共有できるようにWordやPowerPointのドキュメント作成にも力を入れました。
+
+他には、開発環境においてjupyter labを主に使用しておりnotebookでの分析が9割以上を占めていますが加入した新メンバーや既存メンバーが簡単に手法を再現できるようにnotebookだけでなくソースコードにまとめる意識をしています。
+
+#### 顧客折衝と提案
+業務の中で特に顧客のキーマンとのコミュニケーションに力を入れています。相手の課題、ニーズ、データを通して何を実現したいかをヒアリングする意識を持って取り組んでいます。また「現状使用できるデータからどの用な取り組みが可能か、どの用なアウトプットが見込めるか」などの顧客の期待値調整も社内、社外問わず自分自身がリードしてプロジェクトを推進しています。
+
+#### 幅広い業務経験、知識、意欲
+AWS、Azureのクラウドインフラ環境においての開発経験と知識があり、AIモデルの開発やデータ分析だけでなく、バックエンドの開発も得意としています。自分で業務の幅を狭めず様々な技術領域にチャレンジし、吸収していく姿勢があり、経験だけでなく、意欲の面でも高い評価をいただいています。今後もエンドユーザー、クライアントが求める業務、仕事に対して自分自身の幅を狭めずに意欲的に取り組んでいきたいと考えています。
+
+### 業務外の取り組み
+
+#### 自己研鑽（データ分析/機械学習 webアプリの実装と公開）
+業務外でもスキルアップのために日々自己研鑽を積んでいます。具体的には過去に携わっていた理美容業界向けにデータ分析のwebアプリ（ダッシュボードアプリ）を作成、公開しました。営業が会議や顧客折衝する場面を想定し、データ分析専門家ではないビジネスマンが理解しやすいよう可視化の工夫を行いました。またアプリの作成だけでなく、デプロイメントも完了し1つのシステム開発を通し、バックエンドやインフラについても知見を得ることができました。
+
+#### Github
+ダッシュボードアプリのソースコード：https://github.com/RyoyaMasuda/HPB_analysis_dashboard/
