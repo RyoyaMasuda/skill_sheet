@@ -40,10 +40,10 @@
 
 ### プロジェクト一覧
 
-| 期間 | プロジェクト名 | 概要 | 担当業務 | 使用技術 |
-|------|----------------|------|----------|----------|
-| 2023年1月～4月 | 鉄道運行情報組織型スレイピングシステムの開発 | 鉄道運行情報サイトを対象としたスクレイピング・通知システムの開発。OpenAIを活用したデータ分類・クレンジング、データ加工・変換処理・運用までのフロー整備（一部）を実施。PoC から本番稼働、ユーザーテストまで担当。 | ・鉄道運行情報のスクレイピング<br>・データマネジメント、要件フロー作成<br>・システム設計・開発<br>・Azure OpenAIを用いた生成AIモデル開発<br>・RAGアーキテクチャの構築<br>・通知システムの構築<br>・サーバレスアーキテクチャ開発<br>・システム運用・保守 | ・MacOS, Linux(Ubuntu)<br>・Python (Playwright, Pandas, Scikit-learn)<br>・Azure (Container Registry, Functions, CosmosDB, OpenAI他)<br>・Docker<br>・Github, Notion |
-| 2024年10月～ | スキー場向けダッシュボード開発 | スキー場オーナー向け施設動向調査のダッシュボードの構築と運用 | ・データ処理<br>・バグ修正<br>・環境構築<br>・ソースコード最適化<br>・AI関連項目の実装 | ・Linux(Ubuntu)<br>・Python (Pandas, numpy)<br>・AWS (ECR, ECS, RDS)<br>・Docker, Makefile |
-| 2024年7月～9月 | 生成AI文献要約アプリ開発 | 科学技術文献を要約するアプリケーション開発（RAGアーキテクチャ） | ・データ処理、前処理<br>・バックエンド開発<br>・プロンプト作成<br>・AWSへの移管 | ・Linux(Ubuntu)<br>・Python (chainlit, langchain, selenium)<br>・AWS (Bedrock, VPC, ALB)<br>・Pinecone |
-| 2024年4月～6月 | 人流ポータル交通データ分析 | 公共交通機関の将来需要予測をTableauによる可視化、ダッシュボード構築 | ・データ収集、集計、前処理<br>・中長期エンジニアリング<br>・データ自動化<br>・モデル改修<br>・精度検証 | ・Python (pandas, numpy, matplotlib, plotly, prophet) |
-| 2024年2月～4月 | 公共交通機関OD推定開発 | 公共交通機関のポータルサイト改善のPoCプロジェクト、OD推定のアルゴリズム分析と改善 | ・開発、実装、前処理<br>・アルゴリズム作成と改善<br>・モデル検証、精度検証 | ・MacOS, Linux(Ubuntu)<br>・Python (pandas, numpy, scikit-learn, PyTorch)<br>・AWS (ECR, ECS, RDS)<br>・MySQL | 
+| 開発期間 | プロジェクト名・内容 | 担当業務 | 環境・言語 | 役割・規模 |
+|----------|---------------------|----------|------------|------------|
+| 2023年1月～4月<br>（4ヶ月） | **鉄道運行情報組織型システム開発**<br>・鉄道運行情報サイトのスクレイピング・通知システム開発<br>・OpenAIを活用したデータ分類・クレンジング<br>・PoCから本番稼働までの一貫開発 | ・スクレイピング処理の実装<br>・データマネジメント設計<br>・Azure OpenAI/RAGアーキテクチャ構築<br>・通知システム開発<br>・サーバレス基盤構築<br>・運用保守体制の確立 | ・開発環境：MacOS, Linux(Ubuntu)<br>・言語：Python<br>・フレームワーク：Playwright, Pandas<br>・クラウド：Azure (OpenAI, Functions, CosmosDB他)<br>・その他：Docker, Github | ・役割：開発リーダー<br>・チーム規模：3名<br>・担当：設計～運用 |
+| 2024年10月～<br>（進行中） | **スキー場分析ダッシュボード**<br>・施設動向調査システム構築<br>・データ可視化基盤の開発 | ・データ処理実装<br>・システム改善<br>・環境構築<br>・AI機能実装提案 | ・開発環境：Linux(Ubuntu)<br>・言語：Python<br>・フレームワーク：Pandas, numpy<br>・クラウド：AWS (ECR, ECS, RDS)<br>・その他：Docker, Makefile | ・役割：メンバー<br>・チーム規模：3名<br>・担当：開発～保守 |
+| 2024年7月～9月<br>（3ヶ月） | **生成AI文献要約システム**<br>・科学技術文献の自動要約<br>・RAGアーキテクチャ採用 | ・データ前処理<br>・バックエンド開発<br>・プロンプト設計<br>・AWS移行 | ・開発環境：Linux(Ubuntu)<br>・言語：Python<br>・フレームワーク：chainlit, langchain<br>・クラウド：AWS (Bedrock, VPC)<br>・その他：Pinecone | ・役割：メンバー<br>・チーム規模：2名<br>・担当：開発全般 |
+| 2024年4月～6月<br>（3ヶ月） | **交通需要予測システム**<br>・バス会社向け将来需要予測<br>・Tableauによる可視化 | ・データ収集/前処理<br>・予測モデル構築<br>・自動化処理実装<br>・精度検証 | ・言語：Python<br>・フレームワーク：pandas, numpy<br>・可視化：matplotlib, plotly<br>・予測：prophet | ・役割：メンバー<br>・チーム規模：4名<br>・担当：分析～実装 |
+| 2024年2月～4月<br>（3ヶ月） | **公共交通OD推定システム**<br>・移動経路予測アルゴリズム開発<br>・PoCプロジェクト | ・アルゴリズム開発<br>・データ前処理<br>・モデル検証 | ・開発環境：MacOS, Linux<br>・言語：Python<br>・フレームワーク：PyTorch, scikit-learn<br>・クラウド：AWS (ECR, ECS)<br>・DB：MySQL | ・役割：メンバー<br>・チーム規模：1名<br>・担当：開発全般 | 
