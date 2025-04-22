@@ -28,7 +28,7 @@
 ・データベース（主にMySQL）の知識、実務経験<br>
 ・NGINX / uWSGIを使ったWebアプリ公開環境の構築<br>
 ・DashやPlotly等によるダッシュボード開発・可視化<br>
-・Windows / macOS / Linux のいずれの環境でも開発・運用が可能
+・Windows / macOS / Linux のいずれの環境でも開発が可能
 
 ## 開発経歴
 
@@ -43,7 +43,7 @@
 
 | 期間 | プロジェクト内容 | 担当業務 | 開発環境 | 規模 |
 |------|-----------------|----------|-----------|------------|
-| 2025年1月～4月 | **鉄道運行情報通知プロトタイプシステムの開発（生成AI・スクレイピング・変更検知）**<br><br>【概要】<br>鉄道運行情報サイトを対象としたスクレイピング・通知システムの開発。Azure OpenAIを活用した生成AIの導入から、データ収集・変更検知・通知までのフローを設計（一部）と実装。PoCからプロトタイプ、ユーザーテストまで担当。<br><br>【担当業務】<br>・鉄道運行情報のスクレイピング<br>・フローチャート、業務フロー作成等の一部基本設計、資料作成<br>・変更検知アルゴリズムの実装<br>・Azure OpenAIを用いた生成AIモデルのプロンプトエンジニアリング<br>・Azure AI Searceを用いたRAGアーキテクチャの構築<br>・通知システムの開発（メール通知、CSV出力など）<br>・サーバレスアーキテクチャにおけるバックエンド開発<br>・テスト項目作成、テスト実施<br>・クライアント報告資料作成<br>・技術ドキュメント整備 | ・スクレイピング<br>・基本設計（一部）<br>・業務フロー作成<br>・フローチャート作成<br>・バックエンド開発（サーバレス）<br>・メール通知実装<br>・報告資料作成<br>・社内ドキュメント作成 | MacOS<br><br>Linux(Ubuntu)<br><br>Python<br>・Playwright<br>・Pandas<br>・Pydantic<br><br>Azure<br>・Container Registry<br>・Functions<br>・CosmosDB<br>・Blob Storage<br>・Communication Service<br>・Virtual Machine<br>・OpenAI<br>・AI Search<br><br>Docker<br><br>Github<br><br>Notion | メンバー<br>3名 |
+| 2025年1月～4月 | **鉄道運行情報通知プロトタイプシステムの開発（生成AI・スクレイピング・変更検知）**<br><br>【概要】<br>鉄道運行情報サイトを対象としたスクレイピング・通知システムの開発。Azure OpenAIを活用した生成AIの導入から、データ収集・変更検知・通知までのフローを設計（一部）と実装。PoCからプロトタイプ、ユーザーテストまで担当。<br><br>【担当業務】<br>・鉄道運行情報のスクレイピング<br>・フローチャート、業務フロー作成等の一部基本設計、資料作成<br>・変更検知アルゴリズムの実装<br>・Azure OpenAIを用いた生成AIモデルのプロンプトエンジニアリング<br>・Azure AI Searceを用いたRAGアーキテクチャの構築<br>・通知システムの開発（メール通知、CSV出力など）<br>・サーバレスアーキテクチャにおけるバックエンド開発<br>・テスト項目作成、テスト実施<br>・クライアント報告資料作成<br>・技術ドキュメント整備 | ・スクレイピング<br>・基本設計（一部）<br>・業務フロー作成<br>・フローチャート作成<br>・バックエンド開発（サーバレス）<br>・メール通知実装<br>・報告資料作成<br>・社内ドキュメント作成 | MacOS<br><br>Linux(Ubuntu)<br><br>Python<br>・Playwright<br>・Pandas<br>・Pydantic<br><br>Azure<br>・ACR<br>・Functions<br>・CosmosDB<br>・Blob Storage<br>・ACS<br>・Virtual Machine<br>・OpenAI<br>・AI Search<br><br>Docker<br><br>Github<br><br>Notion | メンバー<br>3名 |
 | 2024年10月～12月 | **スキー場向けダッシュボードの開発と保守**<br><br>【概要】<br>スキー場オーナー向けの顧客動向調査のダッシュボードの開発と保守<br><br>【担当業務】<br>・データ加工<br>・バグ修正<br>・バージョンアップ等の環境構築<br>・ソースコードの最適化<br>・AI機能追加の提案（顧客混雑度予測の提案） | ・データ加工<br>・バグ修正<br>・環境構築<br>・ソースコードの最適化<br>・顧客分析<br>・顧客提案 | Linux(Ubuntu)<br><br>Python<br>・Pandas<br>・numpy<br><br>AWS<br>・ECR<br>・ECS<br>・Batch<br><br>Docker<br>・compose<br>・dockerfile | メンバー<br>3名 |
 | 2024年7月～9月 | **生成AIを用いた社内文書検索アプリの開発**<br><br>【概要】<br>ITIL プロセス管理のアプリのガイド回答アプリ開発(RAG アーキテクチャ)<br><br>【担当業務】<br>・データ加工、前処理(Web スクレイピング、PDF 作成)<br>・フロントエンド開発<br>・バックエンド開発<br>・AWSへの移植 | ・データ加工<br>・スクレイピング<br>・バックエンド開発<br>・フロントエンド開発 | Linux(Ubuntu)<br><br>Python<br>・selenium<br>・chainlit<br>・streamlit<br>・langchain<br><br>AWS<br>・Bedrock<br>・EC2<br>・VPC<br>・ALB<br>・Pinecone | メンバー<br>2名 |
 | 2024年4月～<br>2024年6月 | **人流データ＋交通データ分析**<br><br>【概要】<br>公共交通機関（バス会社）の将来需要予測とTableauによる利用者ダッシュボード提供<br><br>【担当業務】<br>・データ加工、集計、前処理（モデルへのインプットデータ）<br>・特徴量エンジニアリング<br>・データ可視化<br>・モデル選定<br>・精度検証<br>・報告書作成、顧客報告、提案業務 | ・データ加工<br>・データ前処理<br>・特徴量エンジニアリング<br>・モデル選定<br>・データ可視化<br>・精度検証<br>・報告書作成<br>・顧客折衝<br>・顧客提案 | Linux(Ubuntu)<br><br>Python<br>・pandas<br>・numpy<br>・matplotlib<br>・plotly<br>・folium<br>・prophet | メンバー<br>4名 |
@@ -65,12 +65,12 @@
 
 ## 保有資格
 
-・基本情報技術者（2021年12月）
-・統計検定2級（2021年6月）
+- 基本情報技術者（2021年12月）
+- 統計検定2級（2021年6月）
 
 ## 自己PR
 
-### 業務内容
+### 業務内
 
 #### チームメンバーへの情報シェア
 チームの課題として組織内にドキュメントが整っておらず日々の単純業務でも時間がかかる状況が続いていました。その中で私は取り組んだ内容や手法、環境構築等について積極的にGitLabのissueやwiki等にドキュメントとしてまとめる意識をもって業務に取り組んでいました。またGitを使用しない非エンジニアのメンバーでも同じ情報を共有できるようにWordやPowerPointのドキュメント作成にも力を入れました。
