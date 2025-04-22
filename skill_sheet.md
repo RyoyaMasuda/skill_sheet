@@ -47,7 +47,7 @@
 | 2024年10月～12月 | **スキー場向けダッシュボードの開発と保守**<br><br>【概要】<br>スキー場オーナー向けの顧客動向調査のダッシュボードの開発と保守<br><br>【担当業務】<br>・データ加工<br>・バグ修正<br>・バージョンアップ等の環境構築<br>・ソースコードの最適化<br>・AI機能追加の提案（顧客混雑度予測の提案） | ・データ加工<br>・バグ修正<br>・環境構築<br>・ソースコードの最適化<br>・顧客分析<br>・顧客提案 | Linux(Ubuntu)<br><br>Python<br>・Pandas<br>・numpy<br><br>AWS<br>・ECR<br>・ECS<br>・Batch<br><br>Docker<br>・compose<br>・dockerfile | メンバー<br>3名 |
 | 2024年7月～9月 | **生成AIを用いた社内文書検索アプリの開発**<br><br>【概要】<br>ITIL プロセス管理のアプリのガイド回答アプリ開発(RAG アーキテクチャ)<br><br>【担当業務】<br>・データ加工、前処理(Web スクレイピング、PDF 作成)<br>・フロントエンド開発<br>・バックエンド開発<br>・AWSへの移植 | ・データ加工<br>・スクレイピング<br>・バックエンド開発<br>・フロントエンド開発 | Linux(Ubuntu)<br><br>Python<br>・selenium<br>・chainlit<br>・streamlit<br>・langchain<br><br>AWS<br>・Bedrock<br>・EC2<br>・VPC<br>・ALB<br>・Pinecone | メンバー<br>2名 |
 | 2024年4月～<br>2024年6月 | **人流データ＋交通データ分析**<br><br>【概要】<br>公共交通機関（バス会社）の将来需要予測とTableauによる利用者ダッシュボード提供<br><br>【担当業務】<br>・データ加工、集計、前処理（モデルへのインプットデータ）<br>・特徴量エンジニアリング<br>・データ可視化<br>・モデル選定<br>・精度検証<br>・報告書作成、顧客報告、提案業務 | ・データ加工<br>・データ前処理<br>・特徴量エンジニアリング<br>・モデル選定<br>・データ可視化<br>・精度検証<br>・報告書作成<br>・顧客折衝<br>・顧客提案 | Linux(Ubuntu)<br><br>Python<br>・pandas<br>・numpy<br>・matplotlib<br>・plotly<br>・folium<br>・prophet | メンバー<br>4名 |
-| 2024年2月～<br>2024年4月<br>(2ヶ月) | **公共交通機関のOD推定のアルゴリズム考案と開発**<br><br>【概要】<br>公共交通機関をサポートするIT企業のPoCプロジェクト。OD推定（Origin=出発点、Destination=到着地）のアルゴリズム考案と開発<br><br>【担当業務】<br>データ抽出、データ前処理、inputデータの作成、アルゴリズム考案、アルゴリズム実装、モデル構築、精度検証 | ・データ抽出<br>・データ前処理<br>・アルゴリズム開発<br>・モデル構築<br>・精度検証 | MacOS<br><br>AWS<br>・EC2<br>・RDS<br><br>Linux<br>・Ubuntu<br><br>Python<br>・pandas<br>・numpy<br>・SQLAlchemy<br>・scikit-learn<br>・Pytorch<br><br>DB<br>・MySQL | メンバー<br>3名 |
+| 2024年2月～<br>2024年4月<br>(2ヶ月) | **公共交通機関のOD推定のアルゴリズム考案と開発**<br><br>【概要】<br>公共交通機関をサポートするIT企業のPoCプロジェクト。OD推定（Origin=出発点、Destination=到着地）のアルゴリズム考案と開発<br><br>【担当業務】<br>・データ抽出<br>・データ前処理<br>・inputデータの作成<br>・アルゴリズム考案<br>・アルゴリズム実装<br>・モデル構築<br>・精度検証 | ・データ抽出<br>・データ前処理<br>・アルゴリズム開発<br>・モデル構築<br>・精度検証 | MacOS<br><br>AWS<br>・EC2<br>・RDS<br><br>Linux<br>・Ubuntu<br><br>Python<br>・pandas<br>・numpy<br>・SQLAlchemy<br>・scikit-learn<br>・Pytorch<br><br>DB<br>・MySQL | メンバー<br>3名 |
 
 ### Hmcomm株式会社 R&Dセンター
 
@@ -57,7 +57,7 @@
 
 ### プロジェクト一覧
 
-| 開発期間 | プロジェクト名・内容 | 担当業務 | 環境・言語 | 役割・規模 |
+| 期間 | プロジェクト名・内容 | 担当業務 | 環境・言語 | 役割・規模 |
 |----------|---------------------|----------|------------|------------|
 | 2023年10月～<br>2024年1月<br>(4ヶ月) | **音声認識Webアプリケーションの開発、保守**<br><br>【概要】<br>会議音声の音声認識と自動議事録作成サービスを提供するアプリの開発（追加機能実装）、保守。<br><br>【担当業務】<br>音声認識議事録作成アプリの開発（追加機能実装）、保守、バグ調査（MySQLによるデータ抽出、更新、削除等）。報告資料の作成。Excel自動化。 | ・開発<br>・保守<br>・DB操作<br>・Excel自動化<br>・データ加工 | Linux(Ubuntu)<br><br>AWS<br>・EC2<br>・RDS<br>・S3<br><br>Python<br>・FastAPI<br>・Selenium<br>・pandas<br>・numpy<br>・matplotlib<br>・openpyxl<br><br>DB<br>・MySQL | メンバー<br>4名 |
 | 2022年12月～<br>2023年10月<br>(11ヶ月) | **インフラ業界向けAI異常音検知アプリケーション/PoCのデータ分析**<br><br>【概要】<br>電力会社、建設会社等へ向けた機械故障予兆検知やイベント検出機能実装のPoC、自社プロダクト（異常音検知 Webシステム）へのモデル実装、自社ライブラリ追加機能実装<br><br>【担当業務】<br>顧客折衝（打ち合わせ、報告）、工数見積、バッチ処理、データ分析、モデル構築、精度検証の工程を担当。 | ・顧客折衝<br>・工数見積<br>・バッチ処理<br>・データ前処理<br>・データ可視化<br>・モデル構築<br>・精度検証 | Linux(Ubuntu)<br><br>AWS<br>・Dynamodb<br>・Lambda<br>・S3<br><br>Python<br>・boto3<br>・librosa<br>・pandas<br>・numpy<br>・matplotlib<br>・seaborn<br>・plotly<br>・scikit-learn<br>・UMAP<br>・catboost<br>・Pytorch | メンバー<br>3名 |
