@@ -18,16 +18,16 @@
 
 ## 活かせる経験・得意分野・知識
 
-・美容業界における業務知識と法人営業の経験
-・Pythonを用いたデータ分析・API開発の実務経験（FastAPI / Streamlit）
-・スクレイピングの自動化（Playwright, Selenium）と運用スクリプトの開発
-・scikit-learn / LightGBM / PyTorch等を用いた機械学習モデル構築・評価
-・クラウド環境（Azure / AWS）を活用したシステム開発の経験
-・サーバレス環境でのバックエンド設計・開発の知識、実務経験
-・Linux（Ubuntu）およびDockerを用いた環境構築
-・データベース（主にMySQL）の知識、実務経験
-・NGINX / uWSGIを使ったWebアプリ公開環境の構築
-・DashやPlotly等によるダッシュボード開発・可視化
+・美容業界における業務知識と法人営業の経験<br>
+・Pythonを用いたデータ分析・API開発の実務経験（FastAPI / Streamlit）<br>
+・スクレイピングの自動化（Playwright, Selenium）と運用スクリプトの開発<br>
+・scikit-learn / LightGBM / PyTorch等を用いた機械学習モデル構築・評価<br>
+・クラウド環境（Azure / AWS）を活用したシステム開発の経験<br>
+・サーバレス環境でのバックエンド設計・開発の知識、実務経験<br>
+・Linux（Ubuntu）およびDockerを用いた環境構築<br>
+・データベース（主にMySQL）の知識、実務経験<br>
+・NGINX / uWSGIを使ったWebアプリ公開環境の構築<br>
+・DashやPlotly等によるダッシュボード開発・可視化<br>
 ・Windows / macOS / Linux のいずれの環境でも開発・運用が可能
 
 ## 開発経歴
@@ -57,7 +57,7 @@
 
 ### プロジェクト一覧
 
-| 期間 | プロジェクト名・内容 | 担当業務 | 環境・言語 | 役割・規模 |
+| 期間 | プロジェクト内容 | 担当業務 | 開発環境 | 規模 |
 |----------|---------------------|----------|------------|------------|
 | 2023年10月～<br>2024年1月<br>(4ヶ月) | **音声認識Webアプリケーションの開発、保守**<br><br>【概要】<br>会議音声の音声認識と自動議事録作成サービスを提供するアプリの開発（追加機能実装）、保守。<br><br>【担当業務】<br>音声認識議事録作成アプリの開発（追加機能実装）、保守、バグ調査（MySQLによるデータ抽出、更新、削除等）。報告資料の作成。Excel自動化。 | ・開発<br>・保守<br>・DB操作<br>・Excel自動化<br>・データ加工 | Linux(Ubuntu)<br><br>AWS<br>・EC2<br>・RDS<br>・S3<br><br>Python<br>・FastAPI<br>・Selenium<br>・pandas<br>・numpy<br>・matplotlib<br>・openpyxl<br><br>DB<br>・MySQL | メンバー<br>4名 |
 | 2022年12月～<br>2023年10月<br>(11ヶ月) | **インフラ業界向けAI異常音検知アプリケーション/PoCのデータ分析**<br><br>【概要】<br>電力会社、建設会社等へ向けた機械故障予兆検知やイベント検出機能実装のPoC、自社プロダクト（異常音検知 Webシステム）へのモデル実装、自社ライブラリ追加機能実装<br><br>【担当業務】<br>顧客折衝（打ち合わせ、報告）、工数見積、バッチ処理、データ分析、モデル構築、精度検証の工程を担当。 | ・顧客折衝<br>・工数見積<br>・バッチ処理<br>・データ前処理<br>・データ可視化<br>・モデル構築<br>・精度検証 | Linux(Ubuntu)<br><br>AWS<br>・Dynamodb<br>・Lambda<br>・S3<br><br>Python<br>・boto3<br>・librosa<br>・pandas<br>・numpy<br>・matplotlib<br>・seaborn<br>・plotly<br>・scikit-learn<br>・UMAP<br>・catboost<br>・Pytorch | メンバー<br>3名 |
