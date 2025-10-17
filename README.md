@@ -1,6 +1,6 @@
 # スキルシート
 
-2025年4月22日現在  
+2025年10月15日現在  
 氏名：増田 燎也
 
 ## 職務概要
@@ -18,17 +18,17 @@
 
 ## 活かせる経験・得意分野・知識
 
-・美容業界における業務知識と法人営業の経験<br>
-・Pythonを用いたデータ分析・API開発の実務経験（FastAPI / Streamlit）<br>
-・スクレイピングの自動化（Playwright, Selenium）と運用スクリプトの開発<br>
-・scikit-learn / LightGBM / PyTorch / Keras 等を用いた機械学習モデル構築・評価<br>
-・クラウド環境（Azure / AWS）を活用したシステム開発の経験<br>
-・サーバレス環境でのバックエンド設計・開発の知識、実務経験<br>
-・Linux（Ubuntu）およびDockerを用いた環境構築<br>
-・データベース（主にMySQL）の知識、実務経験<br>
-・NGINX / uWSGIを使ったWebアプリ公開環境の構築<br>
-・DashやPlotly等によるダッシュボード開発・可視化<br>
-・Windows / macOS / Linux のいずれの環境でも開発が可能
+- 美容業界における業務知識と法人営業の経験
+- Pythonを用いたデータ分析・API開発の実務経験（FastAPI / Streamlit）
+- スクレイピングの自動化（Playwright, Selenium）と運用スクリプトの開発
+- scikit-learn / LightGBM / PyTorch / Keras 等を用いた機械学習モデル構築・評価
+- クラウド環境（Azure / AWS）を活用したシステム開発の経験
+- サーバレス環境でのバックエンド設計・開発の知識、実務経験
+- Linux（Ubuntu）およびDockerを用いた環境構築
+- データベース（主にMySQL）の知識、実務経験
+- NGINX / uWSGIを使ったWebアプリ公開環境の構築
+- DashやPlotly等によるダッシュボード開発・可視化
+- Windows / macOS / Linux のいずれの環境でも開発が可能
 
 ## 開発経歴
 
@@ -44,7 +44,7 @@ AI・機械学習を始めとする先端技術の研修事業
 | 期間 | プロジェクト内容 | 担当業務 | 開発環境 | 規模 |
 |------|-----------------|----------|-----------|------------|
 | 2025年8月～11月 | **鉄道運行情報通知プロトタイプシステムの開発 Phase2（生成AI・スクレイピング・変更検知）**<br><br>【概要】<br>鉄道運行情報サイトを対象としたスクレイピング・通知システムの本番運用に向けたプロジェクト。スクレイピング路線拡大､配信文章ロジック､テストケース､精度評価の設計と実装を担当。<br><br>【担当業務】<br>･鉄道運行情報のスクレイピング路線拡大<br>･ACSによるメール配信文章ロジックの設計と実装<br>･テストケース(結合､単体)の設計とテストコード実装<br>･精度評価の設計とコード実装 | <br>･スクレイピング<br>･メール配信文章ロジック<br>･テスト<br>･精度評価 | MacOS<br><br>Linux(Ubuntu)<br><br>Python<br>･Playwright<br>･Pydantic<br>･pytest<br>･pytest-mock<br><br>Azure<br>･ACR<br>･Functions<br>･CosmosDB<br>･Blob Storage<br>･ACS<br>･Virtual Machine<br>･OpenAI<br>･KeyVault<br>･bastion<br>･DevOps<br> ･pipeline<br><br>terraform<br><br>Docker<br><br>Github<br><br>Notion | メンバー<br>3名 |
-| 2025年1月～5月 | **鉄道運行情報通知プロトタイプシステムの開発 Phase1（生成AI・スクレイピング・変更検知）**<br><br>【概要】<br>鉄道運行情報サイトを対象としたスクレイピング・通知システムの開発。Azure OpenAIを活用した生成AIの導入から、データ収集・変更検知・通知までのフローを設計（一部）と実装。PoCからプロトタイプ、ユーザーテストまで担当。<br><br>【担当業務】<br>・鉄道運行情報のスクレイピング<br>・フローチャート、業務フロー作成等の一部基本設計、資料作成<br>・変更検知アルゴリズムの実装<br>・Azure OpenAIを用いた生成AIモデルのプロンプトエンジニアリング<br>・Azure AI Searceを用いたRAGアーキテクチャの構築<br>・通知システムの開発（メール通知、CSV出力など）<br>・サーバレスアーキテクチャにおけるバックエンド開発<br>・テスト項目作成、テスト実施<br>・クライアント報告資料作成<br>・技術ドキュメント整備 | ・スクレイピング<br>・基本設計（一部）<br>・業務フロー作成<br>・フローチャート作成<br>・バックエンド開発（サーバレス）<br>・メール通知実装<br>・報告資料作成<br>・社内ドキュメント作成 | MacOS<br><br>Linux(Ubuntu)<br><br>Python<br>・Playwright<br>・Pandas<br>・Pydantic<br><br>Azure<br>・ACR<br>・Functions<br>・CosmosDB<br>・Blob Storage<br>・ACS<br>・Virtual Machine<br>・OpenAI<br>・AI Search<br><br>Docker<br><br>Github<br><br>Notion | メンバー<br>3名 |
+| 2025年1月～5月 | **鉄道運行情報通知プロトタイプシステムの開発 Phase1（生成AI・スクレイピング・変更検知）**<br><br>【概要】<br>鉄道運行情報サイトを対象としたスクレイピング・通知システムの開発。Azure OpenAIを活用した生成AIの導入から、データ収集・変更検知・通知までのフローを設計（一部）と実装。PoCからプロトタイプ、ユーザーテストまで担当。<br><br>【担当業務】<br>･鉄道運行情報のスクレイピング<br>･フローチャート、業務フロー作成等の一部基本設計、資料作成<br>･変更検知アルゴリズムの実装<br>･Azure OpenAIを用いた生成AIモデルのプロンプトエンジニアリング<br>･Azure AI Searceを用いたRAGアーキテクチャの構築<br>･通知システムの開発（メール通知、CSV出力など）<br>･サーバレスアーキテクチャにおけるバックエンド開発<br>･テスト項目作成、テスト実施<br>･クライアント報告資料作成<br>･技術ドキュメント整備 | ･スクレイピング<br>･基本設計（一部）<br>･業務フロー作成<br>･フローチャート作成<br>･バックエンド開発（サーバレス）<br>･メール通知実装<br>･報告資料作成<br>･社内ドキュメント作成 | MacOS<br><br>Linux(Ubuntu)<br><br>Python<br>･Playwright<br>･Pandas<br>･Pydantic<br><br>Azure<br>･ACR<br>･Functions<br>･CosmosDB<br>･Blob Storage<br>･ACS<br>･Virtual Machine<br>･OpenAI<br>･AI Search<br><br>Docker<br><br>Github<br><br>Notion | メンバー<br>3名 |
 
 ### 株式会社ユニリタ データイノベーション部
 
@@ -55,10 +55,11 @@ AI・機械学習を始めとする先端技術の研修事業
 
 | 期間 | プロジェクト内容 | 担当業務 | 開発環境 | 規模 |
 |------|-----------------|----------|-----------|------------|
-| 2024年10月～12月 | **スキー場向けダッシュボードの開発と保守**<br><br>【概要】<br>スキー場オーナー向けの顧客動向調査のダッシュボードの開発と保守<br><br>【担当業務】<br>・データ加工<br>・バグ修正<br>・バージョンアップ等の環境構築<br>・ソースコードの最適化<br>・AI機能追加の提案（顧客混雑度予測の提案） | ・データ加工<br>・バグ修正<br>・環境構築<br>・ソースコードの最適化<br>・顧客分析<br>・顧客提案 | Linux(Ubuntu)<br><br>Python<br>・Pandas<br>・numpy<br><br>AWS<br>・ECR<br>・ECS<br>・Batch<br><br>Docker<br>・compose<br>・dockerfile | メンバー<br>3名 |
-| 2024年7月～9月 | **生成AIを用いた社内文書検索アプリの開発**<br><br>【概要】<br>ITIL プロセス管理のアプリのガイド回答アプリ開発(RAG アーキテクチャ)<br><br>【担当業務】<br>・データ加工、前処理(Web スクレイピング、PDF 作成)<br>・フロントエンド開発<br>・バックエンド開発<br>・AWSへの移植 | ・データ加工<br>・スクレイピング<br>・バックエンド開発<br>・フロントエンド開発 | Linux(Ubuntu)<br><br>Python<br>・selenium<br>・chainlit<br>・streamlit<br>・langchain<br><br>AWS<br>・Bedrock<br>・EC2<br>・VPC<br>・ALB<br>・Pinecone | メンバー<br>2名 |
-| 2024年4月～<br>2024年6月 | **人流データ＋交通データ分析**<br><br>【概要】<br>公共交通機関（バス会社）の将来需要予測とTableauによる利用者ダッシュボード提供<br><br>【担当業務】<br>・データ加工、集計、前処理（モデルへのインプットデータ）<br>・特徴量エンジニアリング<br>・データ可視化<br>・モデル選定<br>・精度検証<br>・報告書作成、顧客報告、提案業務 | ・データ加工<br>・データ前処理<br>・特徴量エンジニアリング<br>・モデル選定<br>・データ可視化<br>・精度検証<br>・報告書作成<br>・顧客折衝<br>・顧客提案 | Linux(Ubuntu)<br><br>Python<br>・pandas<br>・numpy<br>・matplotlib<br>・plotly<br>・folium<br>・prophet | メンバー<br>4名 |
-| 2024年2月～<br>2024年4月<br>(2ヶ月) | **公共交通機関のOD推定のアルゴリズム考案と開発**<br><br>【概要】<br>公共交通機関をサポートするIT企業のPoCプロジェクト。OD推定（Origin=出発点、Destination=到着地）のアルゴリズム考案と開発<br><br>【担当業務】<br>・データ抽出<br>・データ前処理<br>・inputデータの作成<br>・アルゴリズム考案<br>・アルゴリズム実装<br>・モデル構築<br>・精度検証 | ・データ抽出<br>・データ前処理<br>・アルゴリズム開発<br>・モデル構築<br>・精度検証 | MacOS<br><br>AWS<br>・EC2<br>・RDS<br><br>Linux<br>・Ubuntu<br><br>Python<br>・pandas<br>・numpy<br>・SQLAlchemy<br>・scikit-learn<br>・Pytorch<br><br>DB<br>・MySQL | メンバー<br>3名 |
+| 2025年6月～7月 | **社内データサイエンス勉強会**<br><br>【概要】<br>社内メンバー向けのデータサイエンス技術向上を目的とした勉強会の企画・運営<br><br>【担当業務】<br>･勉強会リーダー<br>･勉強会内容の設計<br>･スケジュール管理<br>･WBS作成<br>･AIエディタによるプレゼン資料作成 | ･リーダー<br>･コンテンツ設計<br>･WBS作成<br>･プレゼン資料作成 | Cursor<br>PowerPoint | メンバー<br>3名 |
+| 2024年10月～12月 | **スキー場向けダッシュボードの開発と保守**<br><br>【概要】<br>スキー場オーナー向けの顧客動向調査のダッシュボードの開発と保守<br><br>【担当業務】<br>･データ加工<br>･バグ修正<br>･バージョンアップ等の環境構築<br>･ソースコードの最適化<br>･AI機能追加の提案（顧客混雑度予測の提案） | ･データ加工<br>･バグ修正<br>･環境構築<br>･ソースコードの最適化<br>･顧客分析<br>･顧客提案 | Linux(Ubuntu)<br><br>Python<br>･Pandas<br>･numpy<br><br>AWS<br>･ECR<br>･ECS<br>･S3<br>･Batch<br><br>Docker<br>･compose<br>･dockerfile | メンバー<br>3名 |
+| 2024年7月～9月 | **生成AIを用いた社内文書検索アプリの開発**<br><br>【概要】<br>ITIL プロセス管理のアプリのガイド回答アプリ開発(RAG アーキテクチャ)<br><br>【担当業務】<br>･データ加工、前処理(Web スクレイピング、PDF 作成)<br>･フロントエンド開発<br>･バックエンド開発<br>･AWSへの移植 | ･データ加工<br>･スクレイピング<br>･バックエンド開発<br>･フロントエンド開発 | Linux(Ubuntu)<br><br>Python<br>･selenium<br>･chainlit<br>･streamlit<br>･langchain<br><br>AWS<br>･Bedrock<br>･EC2<br>･VPC<br>･ALB<br>･Pinecone | メンバー<br>2名 |
+| 2024年4月～<br>2024年6月 | **人流データ＋交通データ分析**<br><br>【概要】<br>公共交通機関（バス会社）の将来需要予測とTableauによる利用者ダッシュボード提供<br><br>【担当業務】<br>･データ加工、集計、前処理（モデルへのインプットデータ）<br>･特徴量エンジニアリング<br>･データ可視化<br>･モデル選定<br>･精度検証<br>･報告書作成、顧客報告、提案業務 | ･データ加工<br>･データ前処理<br>･特徴量エンジニアリング<br>･モデル選定<br>･データ可視化<br>･精度検証<br>･報告書作成<br>･顧客折衝<br>･顧客提案 | Linux(Ubuntu)<br><br>Python<br>･pandas<br>･numpy<br>･matplotlib<br>･plotly<br>･folium<br>･prophet | メンバー<br>4名 |
+| 2024年2月～<br>2024年4月<br>(2ヶ月) | **公共交通機関のOD推定のアルゴリズム考案と開発**<br><br>【概要】<br>公共交通機関をサポートするIT企業のPoCプロジェクト。OD推定（Origin=出発点、Destination=到着地）のアルゴリズム考案と開発<br><br>【担当業務】<br>･データ抽出<br>･データ前処理<br>･inputデータの作成<br>･アルゴリズム考案<br>･アルゴリズム実装<br>･モデル構築<br>･精度検証 | ･データ抽出<br>･データ前処理<br>･アルゴリズム開発<br>･モデル構築<br>･精度検証 | MacOS<br><br>AWS<br>･EC2<br>･RDS<br><br>Linux<br>･Ubuntu<br><br>Python<br>･pandas<br>･numpy<br>･SQLAlchemy<br>･scikit-learn<br>･Pytorch<br><br>DB<br>･MySQL | メンバー<br>3名 |
 
 ### Hmcomm株式会社 R&Dセンター
 
@@ -70,9 +71,9 @@ AI・機械学習を始めとする先端技術の研修事業
 
 | 期間 | プロジェクト内容 | 担当業務 | 開発環境 | 規模 |
 |----------|---------------------|----------|------------|------------|
-| 2023年10月～<br>2024年1月<br>(4ヶ月) | **音声認識Webアプリケーションの開発、保守**<br><br>【概要】<br>会議音声の音声認識と自動議事録作成サービスを提供するアプリの開発（追加機能実装）、保守。<br><br>【担当業務】<br>・音声認識議事録作成アプリの開発（追加機能実装）<br>・保守<br>・バグ調査（MySQLによるデータ抽出、更新、削除等）<br>・報告資料の作成<br>・Excel自動化 | ・開発<br>・保守<br>・DB操作<br>・Excel自動化<br>・データ加工 | Linux(Ubuntu)<br><br>AWS<br>・EC2<br>・RDS<br>・S3<br><br>Python<br>・FastAPI<br>・Selenium<br>・pandas<br>・numpy<br>・matplotlib<br>・openpyxl<br><br>DB<br>・MySQL | メンバー<br>4名 |
-| 2022年12月～<br>2023年10月<br>(11ヶ月) | **インフラ業界向けAI異常音検知アプリケーション/PoCのデータ分析**<br><br>【概要】<br>電力会社、建設会社等へ向けた機械故障予兆検知やイベント検出機能実装のPoC、自社プロダクト（異常音検知 Webシステム）へのモデル実装、自社ライブラリ追加機能実装<br><br>【担当業務】<br>・顧客折衝（打ち合わせ、報告）<br>・工数見積<br>・バッチ処理<br>・データ分析<br>・モデル構築<br>・精度検証 | ・顧客折衝<br>・工数見積<br>・バッチ処理<br>・データ前処理<br>・データ可視化<br>・モデル構築<br>・精度検証 | Linux(Ubuntu)<br><br>AWS<br>・Dynamodb<br>・Lambda<br>・S3<br><br>Python<br>・boto3<br>・librosa<br>・pandas<br>・numpy<br>・matplotlib<br>・seaborn<br>・plotly<br>・scikit-learn<br>・UMAP<br>・catboost<br>・Pytorch | メンバー<br>3名 |
-| 2022年10月～<br>2023年1月<br>(4ヶ月) | **教育業界向けwebアプリケーションの追加機能開発（習熟度分析アプリ）**<br><br>【概要】<br>大手教育会社の学習アプリにおいて、AIによる習熟度推定機能追加のプロジェクトにアサインされ、バックエンドのAPI開発から担当。<br><br>【担当業務】<br>・データ抽出<br>・データ前処理<br>・ベースラインモデル構築<br>・API開発<br>・テスト（自動化） | ・データ抽出<br>・データ前処理<br>・モデル構築<br>・開発<br>・テスト | Linux(Centos7)<br><br>AWS<br>・EC2<br>・RDS<br>・S3<br><br>Python<br>・FastAPI<br>・pandas<br>・numpy<br>・matplotlib<br>・seaborn<br>・scikit-learn<br>・lightgbm<br>・xgboost<br>・catboost<br><br>DB<br>・MySQL | メンバー<br>5名 |
+| 2023年10月～<br>2024年1月<br>(4ヶ月) | **音声認識Webアプリケーションの開発、保守**<br><br>【概要】<br>会議音声の音声認識と自動議事録作成サービスを提供するアプリの開発（追加機能実装）、保守。<br><br>【担当業務】<br>･音声認識議事録作成アプリの開発（追加機能実装）<br>･保守<br>･バグ調査（MySQLによるデータ抽出、更新、削除等）<br>･報告資料の作成<br>･Excel自動化 | ･開発<br>･保守<br>･DB操作<br>･Excel自動化<br>･データ加工 | Linux(Ubuntu)<br><br>AWS<br>･EC2<br>･RDS<br>･S3<br><br>Python<br>･FastAPI<br>･Selenium<br>･pandas<br>･numpy<br>･matplotlib<br>･openpyxl<br><br>DB<br>･MySQL | メンバー<br>4名 |
+| 2022年12月～<br>2023年10月<br>(11ヶ月) | **インフラ業界向けAI異常音検知アプリケーション/PoCのデータ分析**<br><br>【概要】<br>電力会社、建設会社等へ向けた機械故障予兆検知やイベント検出機能実装のPoC、自社プロダクト（異常音検知 Webシステム）へのモデル実装、自社ライブラリ追加機能実装<br><br>【担当業務】<br>･顧客折衝（打ち合わせ、報告）<br>･工数見積<br>･バッチ処理<br>･データ分析<br>･モデル構築<br>･精度検証 | ･顧客折衝<br>･工数見積<br>･バッチ処理<br>･データ前処理<br>･データ可視化<br>･モデル構築<br>･精度検証 | Linux(Ubuntu)<br><br>AWS<br>･Dynamodb<br>･Lambda<br>･S3<br><br>Python<br>･boto3<br>･librosa<br>･pandas<br>･numpy<br>･matplotlib<br>･seaborn<br>･plotly<br>･scikit-learn<br>･UMAP<br>･catboost<br>･Pytorch | メンバー<br>3名 |
+| 2022年10月～<br>2023年1月<br>(4ヶ月) | **教育業界向けwebアプリケーションの追加機能開発（習熟度分析アプリ）**<br><br>【概要】<br>大手教育会社の学習アプリにおいて、AIによる習熟度推定機能追加のプロジェクトにアサインされ、バックエンドのAPI開発から担当。<br><br>【担当業務】<br>･データ抽出<br>･データ前処理<br>･ベースラインモデル構築<br>･API開発<br>･テスト（自動化） | ･データ抽出<br>･データ前処理<br>･モデル構築<br>･開発<br>･テスト | Linux(Centos7)<br><br>AWS<br>･EC2<br>･RDS<br>･S3<br><br>Python<br>･FastAPI<br>･pandas<br>･numpy<br>･matplotlib<br>･seaborn<br>･scikit-learn<br>･lightgbm<br>･xgboost<br>･catboost<br><br>DB<br>･MySQL | メンバー<br>5名 |
 
 ## 保有資格
 
