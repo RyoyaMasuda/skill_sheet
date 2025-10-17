@@ -24,9 +24,9 @@
 - スクレイピングの自動化（Playwright, Selenium）と運用スクリプトの開発
 - scikit-learn / LightGBM / PyTorch / Keras 等を用いた機械学習モデル構築・評価
 - クラウド環境（Azure / AWS）を活用したシステム開発の経験
-- サーバレス環境でのバックエンド設計・開発の知識、実務経験
+- サーバレス環境でのバックエンド設計・開発の知識、経験
 - Linux（Ubuntu）およびDockerを用いた環境構築
-- 様々なデータベース(RDB、NoSQL、ベクトルDB、グラフDB)の知識、実務経験
+- 様々なデータベース(RDB、NoSQL、ベクトルDB、グラフDB)の知識、経験
 - NGINX / uWSGIを使ったWebアプリ公開環境の構築
 - DashやPlotly等によるダッシュボード開発・可視化
 - Windows / macOS / Linux のいずれの環境でも開発が可能
@@ -45,8 +45,8 @@ AI・機械学習を始めとする先端技術の研修事業
 
 | 期間 | プロジェクト内容 | 開発環境 |
 |------|--------------|-----------|
-| 2025年8月～11月 | **鉄道運行情報通知プロトタイプシステムの開発 Phase2（生成AI・スクレイピング・変更検知）**<br><br>【概要】<br>鉄道運行情報サイトを対象としたスクレイピング・通知システムの本番運用に向けたプロジェクト。スクレイピング路線拡大､配信文章ロジック､テストケース､精度評価の設計と実装を担当。<br><br>【担当業務】<br>･鉄道運行情報のスクレイピング路線拡大（複数路線への対応）<br>･ACSによるメール配信文章ロジックの設計と実装<br>･テストケース(結合､単体)の設計とテストコード実装<br>･精度評価の設計とコード実装<br><br>【規模】<br>メンバー3名 | [Python]<br>Playwright<br>Pydantic<br>pytest<br>pytest-mock<br><br>[Azure]<br>ACR<br>ACA<br>Functions<br>CosmosDB<br>Blob Storage<br>ACS<br>Virtual Machine<br>OpenAI<br>KeyVault<br>bastion<br>DevOps<br>pipeline<br><br>[Docker]<br>dockerfile<br><br>terraform<br><br>Notion |
-| 2025年1月～5月 | **鉄道運行情報通知プロトタイプシステムの開発 Phase1（生成AI・スクレイピング・変更検知）**<br><br>【概要】<br>鉄道運行情報サイトを対象としたスクレイピング・通知システムの開発。Azure OpenAIを活用した生成AIの導入から、データ収集・変更検知・通知までのフローを設計（一部）と実装。PoCからプロトタイプ、精度評価まで担当。<br><br>【担当業務】<br>･鉄道運行情報のスクレイピング（Playwright使用、動的コンテンツ対応）<br>･フローチャート、業務フロー作成等の一部基本設計、資料作成<br>･変更検知アルゴリズムの実装<br>･Azure OpenAIを用いた生成AIモデルのプロンプトエンジニアリング（精度向上、コスト最適化）<br>･Azure AI Searchを用いたRAGアーキテクチャの構築<br>･通知システムの開発（メール通知、CSV出力など）<br>･サーバレスアーキテクチャにおけるバックエンド開発（Azure Functions、CosmosDB連携）<br>･テスト項目作成、テスト実施<br>･精度評価の実施<br>･クライアント報告資料作成<br>･技術ドキュメント整備<br><br>【規模】<br>メンバー3名 | [Python]<br>Playwright<br>Pandas<br>Pydantic<br><br>[Azure]<br>ACR<br>Functions<br>CosmosDB<br>Blob Storage<br>ACS<br>Virtual Machine<br>OpenAI<br>AI Search<br><br>[Docker]<br>dockerfile<br><br>Github<br><br>Notion |
+| 2025年8月～11月 | **鉄道運行情報通知プロトタイプシステムの開発 Phase2（生成AI・スクレイピング・変更検知）**<br><br>【概要】<br>鉄道運行情報サイトを対象としたスクレイピング・通知システムの本番運用に向けたプロジェクト。スクレイピング路線拡大､配信文章ロジック､テストケース､精度評価の設計と実装を担当。<br><br>【担当業務】<br>･鉄道運行情報のスクレイピング路線拡大（複数路線への対応）<br>･ACSによるメール配信文章ロジックの設計と実装<br>･テストケース(結合､単体)の設計とテストコード実装<br>･精度評価の設計とコード実装<br><br>【規模】<br>メンバー3名 | [Python]<br>Playwright<br>Pydantic<br>pytest<br>pytest-mock<br><br>[Azure]<br>ACR<br>ACA<br>Functions<br>CosmosDB<br>Blob Storage<br>ACS<br>VM<br>OpenAI<br>KeyVault<br>bastion<br>DevOps<br>pipeline<br><br>[Docker]<br>dockerfile<br><br>terraform<br><br>Notion |
+| 2025年1月～5月 | **鉄道運行情報通知プロトタイプシステムの開発 Phase1（生成AI・スクレイピング・変更検知）**<br><br>【概要】<br>鉄道運行情報サイトを対象としたスクレイピング・通知システムの開発。Azure OpenAIを活用した生成AIの導入から、データ収集・変更検知・通知までのフローを設計（一部）と実装。PoCからプロトタイプ、精度評価まで担当。<br><br>【担当業務】<br>･鉄道運行情報のスクレイピング（Playwright使用、動的コンテンツ対応）<br>･フローチャート、業務フロー作成等の一部基本設計、資料作成<br>･変更検知アルゴリズムの実装<br>･Azure OpenAIを用いた生成AIモデルのプロンプトエンジニアリング（精度向上、コスト最適化）<br>･Azure AI Searchを用いたRAGアーキテクチャの構築<br>･通知システムの開発（メール通知、CSV出力など）<br>･サーバレスアーキテクチャにおけるバックエンド開発（Azure Functions、CosmosDB連携）<br>･テスト項目作成、テスト実施<br>･精度評価の実施<br>･クライアント報告資料作成<br>･技術ドキュメント整備<br><br>【規模】<br>メンバー3名 | [Python]<br>Playwright<br>Pandas<br>Pydantic<br><br>[Azure]<br>ACR<br>Functions<br>CosmosDB<br>Blob Storage<br>ACS<br>VM<br>OpenAI<br>AI Search<br><br>[Docker]<br>dockerfile<br><br>Github<br><br>Notion |
 
 ### 株式会社ユニリタ データイノベーション部
 
