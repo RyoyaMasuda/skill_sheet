@@ -75,7 +75,7 @@ AI・機械学習を始めとする先端技術の研修事業
 <tr>
 <td>2025年9月～11月</td>
 <td><strong>グラフデータベース・GraphRAG技術調査</strong><br><br>【概要】<br>グラフデータベース(Neo4j)とGraphRAGを活用した生成AI製品新規機能開発のための技術調査・検証プロジェクト<br><br>【担当業務】<br>･技術調査（Neo4j、Cypherクエリ、GraphRAGアーキテクチャの文献調査）<br>･精度検証（ベンチマークデータセットでの性能評価、従来RAGとの比較分析）<br>･報告書作成（技術仕様書、実装ガイド、コスト分析レポート）<br><br>【規模】<br>メンバー3名</td>
-<td>Neo4j<br>･Cypher<br>･Aura<br><br>Docker<br>･compose<br>･dockerfile<br><br>Python<br>･uv<br>･pyenv<br>･langchain<br>･pydantic<br>･pandas<br><br>Azure<br>･OpenAI<br>･AI Search<br>･Cosmosdb<br><br>Github<br><br>Cursor</td>
+<td>Neo4j<br>･Cypher<br>･Aura<br><br>Docker<br>･compose<br>･dockerfile<br><br>Python<br>･uv<br>･pyenv<br>･langchain<br>･pydantic<br>･pandas<br><br>Azure<br>･OpenAI<br>･AI Search<br>･CosmosDB<br><br>Github<br><br>Cursor</td>
 </tr>
 <tr>
 <td>2025年6月～7月</td>
