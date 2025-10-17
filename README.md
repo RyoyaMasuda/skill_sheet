@@ -21,7 +21,7 @@
 ・美容業界における業務知識と法人営業の経験<br>
 ・Pythonを用いたデータ分析・API開発の実務経験（FastAPI / Streamlit）<br>
 ・スクレイピングの自動化（Playwright, Selenium）と運用スクリプトの開発<br>
-・scikit-learn / LightGBM / PyTorch等を用いた機械学習モデル構築・評価<br>
+・scikit-learn / LightGBM / PyTorch / Keras 等を用いた機械学習モデル構築・評価<br>
 ・クラウド環境（Azure / AWS）を活用したシステム開発の経験<br>
 ・サーバレス環境でのバックエンド設計・開発の知識、実務経験<br>
 ・Linux（Ubuntu）およびDockerを用いた環境構築<br>
